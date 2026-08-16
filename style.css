@@ -85,8 +85,8 @@ dialog::backdrop{background:rgba(46,34,27,.64);backdrop-filter:blur(6px)}
 /* Wide-screen composition: information and controls become graphic side panels. */
 .slide-previous,.slide-next{filter:blur(7px) saturate(.72);opacity:.42;transform:scale(.94)}
 @media(min-width:901px){
-body{background:var(--cream)}
-.app-shell{height:100svh;display:grid;grid-template-columns:minmax(12rem,1fr) minmax(23rem,2fr) minmax(12rem,1fr);grid-template-rows:minmax(0,1fr);padding:0;gap:0}
+body{min-height:100svh;display:grid;place-items:center;padding:clamp(1.25rem,3.5vw,3rem);background:radial-gradient(circle at 15% 10%,rgba(221,210,240,.58),transparent 32rem),var(--cream)}
+.app-shell{width:min(74rem,100%);height:min(56rem,calc(100svh - clamp(2.5rem,7vw,6rem)));display:grid;grid-template-columns:minmax(12rem,1fr) minmax(23rem,2fr) minmax(12rem,1fr);grid-template-rows:minmax(0,1fr);padding:0;gap:0;overflow:hidden;border:.18rem solid var(--ink);border-radius:.7rem;box-shadow:0 1.35rem 3rem rgba(63,47,31,.24),0 0 0 .55rem rgba(255,250,240,.9)}
 .site-header{display:contents}
 .identity,.actions{position:relative;overflow:hidden;min-width:0}
 .identity{grid-column:1;grid-row:1;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:clamp(1.2rem,4vw,4rem);background:var(--mauve);color:var(--purple);border-right:.55rem solid var(--cream)}
