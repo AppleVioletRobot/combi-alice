@@ -230,6 +230,41 @@ function showStatus(message) {
   setTimeout(() => { if (status.textContent === message) status.textContent = ""; }, 2200);
 }
 
+function escapeHtml(value) {
+  return value.replace(/[&<>"']/g, character => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
+  })[character]);
+}
+
+function inlineMarkdown(value) {
+  return escapeHtml(value)
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*([^*]+)\*/g, "<em>$1</em>");
+}
+
+function renderMarkdown(markdown) {
+  const blocks = markdown.trim().split(/\n\s*\n/);
+  return blocks.map(block => {
+    const lines = block.split("\n").map(line => line.trim()).filter(Boolean);
+    if (lines.every(line => /^[-*]\s+/.test(line))) {
+      return `<ul>${lines.map(line => `<li>${inlineMarkdown(line.replace(/^[-*]\s+/, ""))}</li>`).join("")}</ul>`;
+    }
+    const heading = lines[0].match(/^(#{1,3})\s+(.+)$/);
+    if (heading && lines.length === 1) {
+      const level = heading[1].length + 2;
+      return `<h${level}>${inlineMarkdown(heading[2])}</h${level}>`;
+    }
+    return `<p>${lines.map(inlineMarkdown).join("<br>")}</p>`;
+  }).join("");
+}
+
+async function loadAbout() {
+  const response = await fetch("about.md");
+  if (!response.ok) throw new Error("Could not load the About text.");
+  document.querySelector("#about-copy").innerHTML = renderMarkdown(await response.text());
+}
+
 function sizeAlice() {
   const availableWidth = stage.clientWidth;
   const availableHeight = stage.clientHeight - 50;
@@ -240,7 +275,7 @@ function sizeAlice() {
 }
 
 async function init() {
-  const response = await fetch("components.json");
+  const [response] = await Promise.all([fetch("components.json"), loadAbout()]);
   if (!response.ok) throw new Error("Could not load Alice’s components.");
   parts = await response.json();
   kinds.forEach(kind => selection[kind] = indexFromUrl(kind));
