@@ -232,7 +232,7 @@ function showStatus(message) {
 
 function sizeAlice() {
   const availableWidth = stage.clientWidth;
-  const availableHeight = stage.clientHeight - 34;
+  const availableHeight = stage.clientHeight - 50;
   const gapTotal = 15;
   const size = Math.max(92, Math.min(360, availableWidth / 2.1, (availableHeight - gapTotal) / 4));
   document.documentElement.style.setProperty("--block-size", `${Math.floor(size)}px`);
