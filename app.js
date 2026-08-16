@@ -234,9 +234,9 @@ function sizeAlice() {
   const availableWidth = stage.clientWidth;
   const availableHeight = stage.clientHeight - 34;
   const gapTotal = 15;
-  const size = Math.max(92, Math.min(360, availableWidth / 1.55, (availableHeight - gapTotal) / 4));
+  const size = Math.max(92, Math.min(360, availableWidth / 2.1, (availableHeight - gapTotal) / 4));
   document.documentElement.style.setProperty("--block-size", `${Math.floor(size)}px`);
-  document.documentElement.style.setProperty("--peek", `${Math.max(22, Math.floor(size * .24))}px`);
+  document.documentElement.style.setProperty("--peek", `${Math.max(38, Math.floor(size * .48))}px`);
 }
 
 async function init() {
