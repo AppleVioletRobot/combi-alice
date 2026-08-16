@@ -3,7 +3,10 @@ const parts = {
     {src:"alice/heads/tears-flat.png",name:"Tears"},
     {src:"alice/heads/tears-paste-paper.png",name:"Paste-paper hair"}
   ],
-  torsos: [{src:"alice/torsos/chasing-dopamine.png",name:"Chasing dopamine"}],
+  torsos: [
+    {src:"alice/torsos/chasing-dopamine.png",name:"Chasing dopamine"},
+    {src:"alice/torsos/torso - louis.png",name:"Louis"}
+  ],
   bottoms: [
     {src:"alice/bottoms/jeans.png",name:"Jeans"},
     {src:"alice/bottoms/grey-tracksuit.png",name:"Grey tracksuit"},
