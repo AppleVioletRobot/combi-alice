@@ -260,7 +260,7 @@ function renderMarkdown(markdown) {
 }
 
 async function loadAbout() {
-  const response = await fetch("about.md");
+  const response = await fetch("about.md", { cache: "no-store" });
   if (!response.ok) throw new Error("Could not load the About text.");
   document.querySelector("#about-copy").innerHTML = renderMarkdown(await response.text());
 }
@@ -275,7 +275,7 @@ function sizeAlice() {
 }
 
 async function init() {
-  const [response] = await Promise.all([fetch("components.json"), loadAbout()]);
+  const [response] = await Promise.all([fetch("components.json", { cache: "no-store" }), loadAbout()]);
   if (!response.ok) throw new Error("Could not load Alice’s components.");
   parts = await response.json();
   kinds.forEach(kind => selection[kind] = indexFromUrl(kind));
