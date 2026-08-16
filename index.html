@@ -4,21 +4,57 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="A modular identity artefact. Assemble a temporary Alice.">
+  <meta name="theme-color" content="#fffaf0">
   <title>Combinatorial Alice</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <header>
-      <div><p class="eyebrow">An exploratory identity artefact</p><h1>Combinatorial Alice</h1></div>
-      <button class="randomise" type="button">Random Alice</button>
+  <main class="app-shell">
+    <header class="site-header">
+      <div class="identity">
+        <p class="eyebrow">Combinatorial Alice</p>
+        <p class="possibilities"><strong id="count">—</strong> <span>possible Alices</span></p>
+      </div>
+      <nav class="actions" aria-label="Alice controls">
+        <button class="button button-primary" id="randomise" type="button">Random Alice</button>
+        <button class="button" id="view-alice" type="button">View Alice</button>
+        <button class="icon-button" id="about-button" type="button" aria-label="About Combinatorial Alice">i</button>
+      </nav>
     </header>
-    <div class="stage">
-      <div class="alice" aria-label="A combinatorial Alice"></div>
-      <p class="instruction">Swipe a block or use its arrows.</p>
-    </div>
-    <footer><p>There is no definitive Alice.</p><p class="count"></p></footer>
+
+    <section class="stage" aria-label="Assemble Alice">
+      <div class="alice" id="alice" aria-label="A combinatorial Alice"></div>
+      <p class="instruction">Drag a row, use its arrows, or lock it before randomising.</p>
+    </section>
   </main>
+
+  <dialog class="viewer" id="viewer">
+    <div class="dialog-bar">
+      <div><p class="dialog-kicker">Current Alice</p><h2 id="viewer-name">Alice</h2></div>
+      <button class="close-button" type="button" data-close="viewer" aria-label="Close current Alice">×</button>
+    </div>
+    <div class="viewer-scroll">
+      <div class="assembled" id="assembled"></div>
+      <ol class="component-list" id="component-list"></ol>
+    </div>
+    <div class="dialog-actions">
+      <button class="button button-primary" id="save-alice" type="button">Save Alice</button>
+      <button class="button" id="copy-link" type="button">Copy link</button>
+      <button class="button" id="share-alice" type="button">Share</button>
+      <span class="status" id="status" role="status" aria-live="polite"></span>
+    </div>
+  </dialog>
+
+  <dialog class="about" id="about">
+    <div class="dialog-bar"><h2>About Combinatorial Alice</h2><button class="close-button" type="button" data-close="about" aria-label="Close about panel">×</button></div>
+    <div class="about-copy">
+      <p>Combinatorial Alice is an exploratory identity artefact. Turn the four sections to assemble a temporary Alice.</p>
+      <p>Each component remains available even when it is not selected. No combination is definitive.</p>
+      <p>Use the arrow buttons or drag a row. Lock any component you want to preserve before choosing Random Alice.</p>
+      <p class="small">Made by Apple Violet Robot.</p>
+    </div>
+  </dialog>
+
   <script src="app.js"></script>
 </body>
 </html>
