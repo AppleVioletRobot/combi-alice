@@ -1,27 +1,133 @@
 {
   "heads": [
-    {"id":"head_001","file":"alice/heads/head_001.png","display_name":"Crying Glasses Alice","alt_text":"Alice with brown hair, glasses, a wobbly pink mouth and two blue tears"},
-    {"id":"head_002","file":"alice/heads/head_002.png","display_name":"Bathroom Alice","alt_text":"Glasses-less Alice with brown paste-paper hair against an aqua bathroom background","original_set":"bathroom-louis"},
-    {"id":"head_003","file":"alice/heads/head_003.png","display_name":"Pirate Scarf Alice","alt_text":"Alice wearing glasses, gold earrings and a grey spotted headscarf"},
-    {"id":"head_004","file":"alice/heads/head_004.png","display_name":"Dogwalking Alice","alt_text":"Alice wearing sunglasses and a blue baker boy cap"}
+    {
+      "id": "head_001",
+      "file": "alice/heads/head_001.png",
+      "display_name": "Crying Glasses Alice",
+      "alt_text": "Alice with brown hair, glasses, a wobbly pink mouth and two blue tears",
+      "biographical_note": ""
+    },
+    {
+      "id": "head_002",
+      "file": "alice/heads/head_002.png",
+      "display_name": "Bathroom Alice",
+      "alt_text": "Glasses-less Alice with brown paste-paper hair against an aqua bathroom background",
+      "original_set": "bathroom-louis",
+      "biographical_note": ""
+    },
+    {
+      "id": "head_003",
+      "file": "alice/heads/head_003.png",
+      "display_name": "Pirate Scarf Alice",
+      "alt_text": "Alice wearing glasses, gold earrings and a grey spotted headscarf",
+      "biographical_note": ""
+    },
+    {
+      "id": "head_004",
+      "file": "alice/heads/head_004.png",
+      "display_name": "Dogwalking Alice",
+      "alt_text": "Alice wearing sunglasses and a blue baker boy cap",
+      "biographical_note": ""
+    }
   ],
   "torsos": [
-    {"id":"torso_001","file":"alice/torsos/torso_001.png","display_name":"Chasing Dopamine","alt_text":"A red cardigan over a brown Chasing Dopamine T-shirt with a round pin badge"},
-    {"id":"torso_002","file":"alice/torsos/torso_002.png","display_name":"Holding Louis","alt_text":"Alice’s arms holding Louis, a black-and-white cat stretching one leg upwards","original_set":"bathroom-louis"},
-    {"id":"torso_003","file":"alice/torsos/torso_003.png","display_name":"New Academic Register","alt_text":"An olive suit over a bright patterned shirt with a conference lanyard"},
-    {"id":"torso_004","file":"alice/torsos/torso_004.png","display_name":"Organs","alt_text":"Alice’s torso containing brightly coloured lungs, heart, liver, stomach and intestines"}
+    {
+      "id": "torso_001",
+      "file": "alice/torsos/torso_001.png",
+      "display_name": "Chasing Dopamine",
+      "alt_text": "A red cardigan over a brown Chasing Dopamine T-shirt with a round pin badge",
+      "biographical_note": ""
+    },
+    {
+      "id": "torso_002",
+      "file": "alice/torsos/torso_002.png",
+      "display_name": "Holding Louis",
+      "alt_text": "Alice’s arms holding Louis, a black-and-white cat stretching one leg upwards",
+      "original_set": "bathroom-louis",
+      "biographical_note": ""
+    },
+    {
+      "id": "torso_003",
+      "file": "alice/torsos/torso_003.png",
+      "display_name": "New Academic Register",
+      "alt_text": "An olive suit over a bright patterned shirt with a conference lanyard",
+      "biographical_note": ""
+    },
+    {
+      "id": "torso_004",
+      "file": "alice/torsos/torso_004.png",
+      "display_name": "Organs",
+      "alt_text": "Alice’s torso containing brightly coloured lungs, heart, liver, stomach and intestines",
+      "biographical_note": ""
+    }
   ],
   "legs": [
-    {"id":"legs_001","file":"alice/legs/legs_001.png","display_name":"Jeans","alt_text":"Blue jeans with pockets, gold stitching, a black belt and silver buckle"},
-    {"id":"legs_002","file":"alice/legs/legs_002.png","display_name":"Pink Pyjamas","alt_text":"Pink plaid pyjama bottoms with an elasticated waist and drawstring","original_set":"bathroom-louis"},
-    {"id":"legs_003","file":"alice/legs/legs_003.png","display_name":"Olive Suit Trousers","alt_text":"Dark olive suit trousers with a central seam"},
-    {"id":"legs_004","file":"alice/legs/legs_004.png","display_name":"Grey Tracksuit","alt_text":"Grey tracksuit bottoms with pockets, an elasticated waist and white drawstring"},
-    {"id":"legs_005","file":"alice/legs/legs_005.png","display_name":"Denim Shorts","alt_text":"Long blue denim shorts with pockets, stitching and a narrow strip of bare leg"}
+    {
+      "id": "legs_001",
+      "file": "alice/legs/legs_001.png",
+      "display_name": "Jeans",
+      "alt_text": "Blue jeans with pockets, gold stitching, a black belt and silver buckle",
+      "biographical_note": ""
+    },
+    {
+      "id": "legs_002",
+      "file": "alice/legs/legs_002.png",
+      "display_name": "Pink Pyjamas",
+      "alt_text": "Pink plaid pyjama bottoms with an elasticated waist and drawstring",
+      "original_set": "bathroom-louis",
+      "biographical_note": ""
+    },
+    {
+      "id": "legs_003",
+      "file": "alice/legs/legs_003.png",
+      "display_name": "Olive Suit Trousers",
+      "alt_text": "Dark olive suit trousers with a central seam",
+      "biographical_note": ""
+    },
+    {
+      "id": "legs_004",
+      "file": "alice/legs/legs_004.png",
+      "display_name": "Grey Tracksuit",
+      "alt_text": "Grey tracksuit bottoms with pockets, an elasticated waist and white drawstring",
+      "biographical_note": ""
+    },
+    {
+      "id": "legs_005",
+      "file": "alice/legs/legs_005.png",
+      "display_name": "Denim Shorts",
+      "alt_text": "Long blue denim shorts with pockets, stitching and a narrow strip of bare leg",
+      "biographical_note": ""
+    }
   ],
   "feet": [
-    {"id":"feet_001","file":"alice/feet/feet_001.png","display_name":"Red Trainers","alt_text":"Alice wearing red lace-up trainers on a dark grey surface"},
-    {"id":"feet_002","file":"alice/feet/feet_002.png","display_name":"Bathroom Cankles","alt_text":"Alice’s bare feet and ankles, one tattooed 7 greater than 338, on black-and-white bathroom tiles","original_set":"bathroom-louis"},
-    {"id":"feet_003","file":"alice/feet/feet_003.png","display_name":"Purple Trainers on Grass","alt_text":"Alice wearing purple trainers on a large green field"},
-    {"id":"feet_004","file":"alice/feet/feet_004.png","display_name":"Blue Dunlops on Pavement","alt_text":"Alice wearing blue canvas shoes on a cracked pavement"}
+    {
+      "id": "feet_001",
+      "file": "alice/feet/feet_001.png",
+      "display_name": "Red Trainers",
+      "alt_text": "Alice wearing red lace-up trainers on a dark grey surface",
+      "biographical_note": ""
+    },
+    {
+      "id": "feet_002",
+      "file": "alice/feet/feet_002.png",
+      "display_name": "Bathroom Cankles",
+      "alt_text": "Alice’s bare feet and ankles, one tattooed 7 greater than 338, on black-and-white bathroom tiles",
+      "original_set": "bathroom-louis",
+      "biographical_note": ""
+    },
+    {
+      "id": "feet_003",
+      "file": "alice/feet/feet_003.png",
+      "display_name": "Purple Trainers on Grass",
+      "alt_text": "Alice wearing purple trainers on a large green field",
+      "biographical_note": ""
+    },
+    {
+      "id": "feet_004",
+      "file": "alice/feet/feet_004.png",
+      "display_name": "Blue Dunlops on Pavement",
+      "alt_text": "Alice wearing blue canvas shoes on a cracked pavement",
+      "biographical_note": ""
+    }
   ]
 }
