@@ -1,9 +1,10 @@
 {
   "heads": [
-    {"id":"head_001","file":"alice/heads/head_001.png","display_name":"Crying Glasses Alice","alt_text":"Alice with brown hair, glasses, a wobbly pink mouth and two blue tears"},
+    {"id":"head_001","file":"alice/heads/head_001.png","display_name":"Crying Alice","alt_text":"Alice with brown hair, glasses, a wobbly pink mouth and two blue tears"},
     {"id":"head_002","file":"alice/heads/head_002.png","display_name":"Bathroom Alice","alt_text":"Glasses-less Alice with brown paste-paper hair against an aqua bathroom background","original_set":"bathroom-louis"},
     {"id":"head_003","file":"alice/heads/head_003.png","display_name":"Pirate Scarf Alice","alt_text":"Alice wearing glasses, gold earrings and a grey spotted headscarf"},
-    {"id":"head_004","file":"alice/heads/head_004.png","display_name":"Dogwalking Alice","alt_text":"Alice wearing sunglasses and a blue baker boy cap"}
+    {"id":"head_004","file":"alice/heads/head_004.png","display_name":"Dogwalking Alice","alt_text":"Alice wearing sunglasses and a blue baker boy cap"},
+    {"id":"head_005","file":"alice/heads/head_005.png","display_name":"Beret Alice","alt_text":"Alice wearing glasses and a yellow beret"}
   ],
   "torsos": [
     {"id":"torso_001","file":"alice/torsos/torso_001.png","display_name":"Chasing Dopamine","alt_text":"A red cardigan over a brown Chasing Dopamine T-shirt with a round pin badge"},
