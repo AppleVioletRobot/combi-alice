@@ -221,3 +221,9 @@ body{background:radial-gradient(circle at 15% 10%,rgba(183,190,194,.44),transpar
 .stage{border-color:#555d61;background:linear-gradient(90deg,rgba(85,93,97,.1) 0 .12rem,transparent .12rem calc(100% - .12rem),rgba(85,93,97,.1) calc(100% - .12rem)),#fff}
 .stage::before{border-color:#555d61;background:#fff;color:#3f4649}
 }
+
+/* Casing refinement: keep isolated circles and gears; remove rivet strips and technical notes. */
+@media(min-width:901px){
+.identity::before{background:transparent}
+.identity::after{background:none;opacity:.12}
+}
