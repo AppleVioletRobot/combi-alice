@@ -179,3 +179,7 @@ body{min-height:100svh;display:grid;place-items:center;padding:clamp(1.25rem,3.5
 .actions .icon-button{align-self:flex-end;width:3.2rem;height:3.2rem;background:var(--cream);font-family:Georgia,"Times New Roman",serif;font-size:1.25rem}
 .stage{grid-column:2;grid-row:1;min-width:0;min-height:0;padding:.8rem calc(var(--peek) + .5rem) .45rem;background:radial-gradient(circle at 50% 8%,rgba(221,210,240,.65),transparent 28rem),var(--cream)}
 }
+
+
+.biographical-summary{width:min(86vw,30rem);margin:0 auto 1.15rem;padding:1rem 1.1rem;border:.12rem solid var(--purple);background:var(--mauve);color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:clamp(.95rem,2.2vw,1.12rem);line-height:1.62;box-shadow:.28rem .28rem 0 rgba(76,58,99,.22)}
+.biographical-summary[hidden]{display:none}
