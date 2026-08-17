@@ -183,3 +183,41 @@ body{min-height:100svh;display:grid;place-items:center;padding:clamp(1.25rem,3.5
 
 .biographical-summary{width:min(86vw,30rem);margin:0 auto 1.15rem;padding:1rem 1.1rem;border:.12rem solid var(--purple);background:var(--mauve);color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:clamp(.95rem,2.2vw,1.12rem);line-height:1.62;box-shadow:.28rem .28rem 0 rgba(76,58,99,.22)}
 .biographical-summary[hidden]{display:none}
+
+
+/* Generator casing v2: neutral Meccano with organs-colour working parts. */
+.gear-cluster{display:none;pointer-events:none}
+@media(min-width:901px){
+body{background:radial-gradient(circle at 15% 10%,rgba(183,190,194,.44),transparent 32rem),#eceeed}
+.app-shell{border-color:#3f4649;box-shadow:0 1.35rem 3rem rgba(44,49,52,.24),0 0 0 .55rem #fff,0 0 0 .75rem #687074}
+.identity{background-color:#d9dde0;background-image:radial-gradient(circle at 1rem 1rem,#555d61 0 .18rem,transparent .2rem),radial-gradient(circle at calc(100% - 1rem) calc(100% - 1rem),#555d61 0 .18rem,transparent .2rem);color:#303639;border-right-color:#fff}
+.identity::before{background-color:#70787c;background-image:radial-gradient(circle,#fff 0 .17rem,transparent .19rem)}
+.identity::after{background-color:#899094;background-image:radial-gradient(circle,#fff 0 .17rem,transparent .19rem);opacity:.72}
+.gear-cluster{display:block;position:absolute;z-index:0;height:auto}
+.gear-cluster-left{width:112%;left:-39%;top:25%;transform:rotate(-8deg);opacity:.92}
+.gear-cluster-right{width:92%;right:-38%;bottom:8%;transform:rotate(13deg);opacity:.42}
+.project-mark{color:#303639;border-color:#434a4e;background:#fff;box-shadow:.18rem .18rem 0 #555d61}
+.eyebrow{color:#303639;text-shadow:.12rem .12rem 0 #fff}
+.counter-bank{border-color:#4e565a;background:#fff;box-shadow:.35rem .35rem 0 #555d61}
+.counter-label{color:#c0007f}
+.possibilities{color:#303639}
+.possibilities strong{border-color:#747c80;background:linear-gradient(180deg,#fff 0 48%,#cfd4d6 49% 52%,#fff 53%);box-shadow:inset 0 .08rem .18rem rgba(48,54,57,.2)}
+.machine-plate{border-color:#596166;background:rgba(255,255,255,.9);box-shadow:inset 0 0 0 .18rem rgba(89,97,102,.12)}
+.actions{padding-top:clamp(1rem,2.5vw,2.2rem);padding-bottom:clamp(1rem,2.5vw,2.2rem);background-color:#c8cdd0;background-image:radial-gradient(circle at 1rem 1rem,#555d61 0 .18rem,transparent .2rem),radial-gradient(circle at calc(100% - 1rem) calc(100% - 1rem),#555d61 0 .18rem,transparent .2rem);border-left-color:#fff}
+.actions::before,.actions::after{border-color:rgba(75,83,87,.26);background:transparent}
+.perforated-brace{background-color:#70787c;background-image:radial-gradient(circle,#fff 0 .18rem,transparent .2rem);opacity:.48}
+.ready-light{margin-bottom:.35rem;border-color:#3f4649;background:#fff;box-shadow:.18rem .18rem 0 #555d61}
+.actions .button{border-color:#3f4649;background:#f7f8f6;color:#303639;box-shadow:.32rem .32rem 0 #555d61}
+.actions .button:active{box-shadow:.1rem .1rem 0 #555d61}
+.lever-control{display:flex!important;flex-direction:column;justify-content:space-between;align-items:center;gap:.35rem;min-height:clamp(12rem,34vh,18rem)!important;padding:.9rem!important;background:#f7f8f6!important;overflow:hidden}
+.lever-knob{width:1.65rem!important;height:clamp(8.2rem,24vh,12.5rem)!important;margin:1rem 0 .2rem!important;border:.18rem solid #303639!important;border-radius:.35rem!important;background:#757d81!important;box-shadow:.18rem .18rem 0 rgba(48,54,57,.32)!important;transform:rotate(-12deg)!important;transform-origin:50% 94%!important}
+.lever-knob::before{content:"";position:absolute;z-index:-1;width:3.4rem;height:100%;left:50%;top:.15rem;transform:translateX(-50%);border:.18rem solid #555d61;border-radius:999px;background:#b8bec1}
+.lever-knob::after{width:3.8rem!important;height:3.8rem!important;top:-1.5rem!important;border:.2rem solid #303639!important;background:#c0007f!important;box-shadow:.2rem .2rem 0 #303639}
+.lever-control>span:last-child{align-self:stretch;padding:.46rem .3rem;border:.13rem solid #3f4649;background:#ffd51e;font-size:.76rem;text-align:center;box-shadow:inset 0 0 0 .18rem rgba(255,255,255,.58)}
+.lever-control:active .lever-knob{transform:rotate(20deg)!important}
+.inspect-control{background:#12b9c2!important}
+.actions .icon-button{background:#fff;border-color:#3f4649;box-shadow:.25rem .25rem 0 #555d61}
+.warning-plate{border-color:#3f4649;background:repeating-linear-gradient(135deg,#ffd51e 0 .45rem,#fff .46rem .9rem);box-shadow:inset 0 0 0 .22rem rgba(255,255,255,.74)}
+.stage{border-color:#555d61;background:linear-gradient(90deg,rgba(85,93,97,.1) 0 .12rem,transparent .12rem calc(100% - .12rem),rgba(85,93,97,.1) calc(100% - .12rem)),#fff}
+.stage::before{border-color:#555d61;background:#fff;color:#3f4649}
+}
