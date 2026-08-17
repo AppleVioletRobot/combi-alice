@@ -247,3 +247,8 @@ body{background:radial-gradient(circle at 15% 10%,rgba(183,190,194,.44),transpar
 .actions .icon-button>span:first-child{font-family:Georgia,"Times New Roman",serif;font-size:2.7rem;font-weight:700;line-height:.75}
 .actions .icon-button .control-label{font-family:Arial,Helvetica,sans-serif;font-size:.58rem;line-height:1.05;text-align:left}
 }
+
+/* The lever responds to a deliberate pointer pull as well as click and keyboard activation. */
+.lever-control{touch-action:none;user-select:none}
+.lever-control.is-pulling .lever-knob{transform:rotate(var(--lever-angle,-12deg))!important;transition:none}
+.lever-control.is-pulled .lever-knob{transform:rotate(24deg)!important;transition:transform .12s ease-out}
