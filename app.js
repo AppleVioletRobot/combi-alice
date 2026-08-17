@@ -172,13 +172,12 @@ function updateViewer() {
     image.alt = current(kind).alt_text;
     return image;
   }));
-  const list = document.querySelector("#component-list");
-  const labels = { heads: "head", torsos: "torso", legs: "legs", feet: "feet" };
-  list.replaceChildren(...kinds.map(kind => {
-    const item = document.createElement("li");
-    item.innerHTML = `<span>${labels[kind]}</span><strong>${current(kind).display_name}</strong>`;
-    return item;
-  }));
+  const notes = kinds
+    .map(kind => current(kind).biographical_note?.trim())
+    .filter(Boolean);
+  const summary = document.querySelector("#biographical-summary");
+  summary.textContent = notes.join(" ");
+  summary.hidden = notes.length === 0;
 }
 
 function openViewer() {
