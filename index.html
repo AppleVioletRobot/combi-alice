@@ -3,28 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="A modular identity artefact. Assemble a temporary Alice.">
+  <meta name="description" content="Generate a temporary Alice from the Combinatorial Alice component archive.">
   <meta name="theme-color" content="#fffaf0">
-  <title>Combinatorial Alice</title>
-  <link rel="stylesheet" href="style.css?v=contained-board">
+  <title>Random Alice Generator — Combinatorial Alice</title>
+  <link rel="stylesheet" href="style.css?v=biographical-notes">
 </head>
 <body>
   <main class="app-shell">
     <header class="site-header">
       <div class="identity">
-        <p class="eyebrow">Combinatorial Alice</p>
-        <p class="possibilities"><strong id="count">—</strong> <span>possible Alices</span></p>
+        <span class="gear gear-left-large" aria-hidden="true"></span>
+        <span class="gear gear-left-small" aria-hidden="true"></span>
+        <p class="project-mark">A Combinatorial Alice project</p>
+        <p class="eyebrow">Random Alice Generator</p>
+        <div class="counter-bank">
+          <span class="counter-label">Possible outputs</span>
+          <p class="possibilities"><strong id="count">—</strong> <span>possible Alices</span></p>
+        </div>
+        <p class="machine-plate"><span>Model: Alice</span><span>Output: provisional</span><span>Coherence: optional</span></p>
       </div>
       <nav class="actions" aria-label="Alice controls">
-        <button class="button button-primary" id="randomise" type="button">Random Alice</button>
-        <button class="button" id="view-alice" type="button">View Alice</button>
-        <button class="icon-button" id="about-button" type="button" aria-label="About Combinatorial Alice">i</button>
+        <span class="gear gear-right-large" aria-hidden="true"></span>
+        <span class="perforated-brace" aria-hidden="true"></span>
+        <p class="ready-light"><span aria-hidden="true"></span>Generator ready</p>
+        <button class="button button-primary lever-control" id="randomise" type="button"><span class="lever-knob" aria-hidden="true"></span><span>Generate Alice</span></button>
+        <button class="button inspect-control" id="view-alice" type="button"><span aria-hidden="true">⌕</span><span>Inspect output</span></button>
+        <button class="icon-button" id="about-button" type="button" aria-label="Operating instructions"><span aria-hidden="true">i</span><span class="control-label">Operating instructions</span></button>
+        <p class="warning-plate">Components may be recombined<br>Do not attempt to resolve</p>
       </nav>
     </header>
 
     <section class="stage" aria-label="Assemble Alice">
       <div class="alice" id="alice" aria-label="A combinatorial Alice"></div>
-      <p class="instruction">Drag a row, use its arrows, or lock it before randomising.</p>
+      <p class="instruction">Turn a row, lock a component, or pull the lever to generate.</p>
     </section>
   </main>
 
@@ -34,8 +45,8 @@
       <button class="close-button" type="button" data-close="viewer" aria-label="Close current Alice">×</button>
     </div>
     <div class="viewer-scroll">
+      <p class="biographical-summary" id="biographical-summary" hidden></p>
       <div class="assembled" id="assembled"></div>
-      <ol class="component-list" id="component-list"></ol>
     </div>
     <div class="dialog-actions">
       <button class="button button-primary" id="save-alice" type="button">Save Alice</button>
@@ -50,6 +61,6 @@
     <div class="about-copy" id="about-copy"><p>Loading…</p></div>
   </dialog>
 
-  <script src="app.js?v=fresh-content"></script>
+  <script src="app.js"></script>
 </body>
 </html>
