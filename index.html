@@ -6,14 +6,13 @@
   <meta name="description" content="Generate a temporary Alice from the Combinatorial Alice component archive.">
   <meta name="theme-color" content="#fffaf0">
   <title>Random Alice Generator — Combinatorial Alice</title>
-  <link rel="stylesheet" href="style.css?v=biographical-notes">
+  <link rel="stylesheet" href="style.css?v=generator-casing-v2">
 </head>
 <body>
   <main class="app-shell">
     <header class="site-header">
       <div class="identity">
-        <span class="gear gear-left-large" aria-hidden="true"></span>
-        <span class="gear gear-left-small" aria-hidden="true"></span>
+        <img class="gear-cluster gear-cluster-left" src="alice_gears.svg" alt="" aria-hidden="true">
         <p class="project-mark">A Combinatorial Alice project</p>
         <p class="eyebrow">Random Alice Generator</p>
         <div class="counter-bank">
@@ -23,7 +22,7 @@
         <p class="machine-plate"><span>Model: Alice</span><span>Output: provisional</span><span>Coherence: optional</span></p>
       </div>
       <nav class="actions" aria-label="Alice controls">
-        <span class="gear gear-right-large" aria-hidden="true"></span>
+        <img class="gear-cluster gear-cluster-right" src="alice_gears.svg" alt="" aria-hidden="true">
         <span class="perforated-brace" aria-hidden="true"></span>
         <p class="ready-light"><span aria-hidden="true"></span>Generator ready</p>
         <button class="button button-primary lever-control" id="randomise" type="button"><span class="lever-knob" aria-hidden="true"></span><span>Generate Alice</span></button>
@@ -41,7 +40,7 @@
 
   <dialog class="viewer" id="viewer">
     <div class="dialog-bar">
-      <div><p class="dialog-kicker">Current Alice</p><h2 id="viewer-name">Alice</h2></div>
+      <div><p class="dialog-kicker">Generated output</p><h2>Current Alice</h2></div>
       <button class="close-button" type="button" data-close="viewer" aria-label="Close current Alice">×</button>
     </div>
     <div class="viewer-scroll">
@@ -61,6 +60,6 @@
     <div class="about-copy" id="about-copy"><p>Loading…</p></div>
   </dialog>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=simple-components"></script>
 </body>
 </html>

@@ -10,6 +10,7 @@ const stage = document.querySelector(".stage");
 const viewer = document.querySelector("#viewer");
 const status = document.querySelector("#status");
 const wrap = (value, length) => (value + length) % length;
+const componentId = item => item.file.split("/").pop().replace(/\.[^.]+$/, "");
 
 function current(kind) {
   return parts[kind][selection[kind]];
@@ -17,13 +18,13 @@ function current(kind) {
 
 function indexFromUrl(kind) {
   const id = new URLSearchParams(location.search).get(queryKeys[kind]);
-  const index = parts[kind].findIndex(item => item.id === id);
+  const index = parts[kind].findIndex(item => componentId(item) === id);
   return index < 0 ? 0 : index;
 }
 
 function updateUrl() {
   const params = new URLSearchParams();
-  kinds.forEach(kind => params.set(queryKeys[kind], current(kind).id));
+  kinds.forEach(kind => params.set(queryKeys[kind], componentId(current(kind))));
   history.replaceState({}, "", `${location.pathname}?${params}`);
 }
 
@@ -42,7 +43,7 @@ function buildCarousel(kind) {
   row.className = "carousel-row";
   row.dataset.kind = kind;
   row.tabIndex = 0;
-  row.setAttribute("aria-label", `${kind}: ${current(kind).display_name}`);
+  row.setAttribute("aria-label", `${kind}: ${current(kind).alt_text}`);
 
   const viewport = document.createElement("div");
   viewport.className = "carousel-viewport";
@@ -159,12 +160,7 @@ function randomise() {
   render();
 }
 
-function currentName() {
-  return kinds.map(kind => current(kind).display_name).join(" / ");
-}
-
 function updateViewer() {
-  document.querySelector("#viewer-name").textContent = currentName();
   const assembled = document.querySelector("#assembled");
   assembled.replaceChildren(...kinds.map(kind => {
     const image = document.createElement("img");
@@ -204,7 +200,7 @@ async function saveAlice() {
   canvas.toBlob(blob => {
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = `combinatorial-alice-${kinds.map(kind => current(kind).id).join("-")}.png`;
+    link.download = `combinatorial-alice-${kinds.map(kind => componentId(current(kind))).join("-")}.png`;
     link.click();
     setTimeout(() => URL.revokeObjectURL(link.href), 1000);
     showStatus("Alice saved!");
@@ -218,7 +214,7 @@ async function copyLink() {
 
 async function shareAlice() {
   if (navigator.share) {
-    await navigator.share({ title: "Combinatorial Alice", text: currentName(), url: location.href });
+    await navigator.share({ title: "Random Alice Generator", text: "A temporary Alice from the Random Alice Generator.", url: location.href });
   } else {
     await copyLink();
   }
