@@ -24,6 +24,11 @@
       "file": "alice/heads/head_005.png",
       "alt_text": "Alice wearing glasses and a yellow beret",
       "biographical_note": "Wearing the Florentine yellow beret."
+    },
+    {
+      "file": "alice/heads/head_006.png",
+      "alt_text": "Alice's head filled with colourful gears",
+      "biographical_note": "Plotting another Alice Caper."
     }
   ],
   "torsos": [
@@ -66,13 +71,23 @@
     },
     {
       "file": "alice/legs/legs_004.png",
-      "alt_text": "Grey tracksuit bottoms with pockets, an elasticated waist and white drawstring",
-      "biographical_note": "The least favourite daytime pyjamas."
+      "alt_text": "Charcoal grey tracksuit bottoms with pockets, an elasticated waist and white drawstring",
+      "biographical_note": "The most favourite daytime pyjamas."
     },
     {
       "file": "alice/legs/legs_005.png",
       "alt_text": "Long blue denim shorts with pockets, stitching and a narrow strip of bare leg",
       "biographical_note": "These would reach my knees, if I had knees."
+    },
+    {
+      "file": "alice/legs/legs_006.png",
+      "alt_text": "Blue jeans from the back with pockets and gold stitching",
+      "biographical_note": "These would reach my knees, if I had knees."
+    },
+    {
+      "file": "alice/legs/legs_007.png",
+      "alt_text": "Light grey tracksuit bottoms with pockets, an elasticated waist and white drawstring",
+      "biographical_note": "The least favourite daytime pyjamas."
     }
   ],
   "feet": [
