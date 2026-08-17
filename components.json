@@ -50,7 +50,17 @@
     {
       "file": "alice/torsos/torso_004.png",
       "alt_text": "An olive suit over a bright patterned shirt with a conference lanyard",
-      "biographical_note": "Patito de Goma aka Alice's House of Fashion.."
+      "biographical_note": "Patito de Goma aka Alice's House of Fashion."
+    },
+    {
+      "file": "alice/torsos/torso_005.png",
+      "alt_text": "A grey t-shirt with a picture of a seagull eating chips. There is some seagull poo on the shoulder.",
+      "biographical_note": "Seagulls and chips loom larger than ever."
+    },
+    {
+      "file": "alice/torsos/torso_006.png",
+      "alt_text": "A navy blue t-shirt with the surnames of famous Alices on the left breast. Hand holding a dog poo bag.",
+      "biographical_note": "Say my name - the Alice t-shirt."
     }
   ],
   "legs": [
