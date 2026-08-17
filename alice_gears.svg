@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Alice gear cluster</title>
+  <desc id="desc">Five brightly coloured, outlined gears interlocking in a compact cluster. The background and central holes are transparent.</desc>
+  <defs>
+    <path id="gear12" fill-rule="evenodd" d="M 0,-70 L 11.88,-90.22 L 23.55,-87.90 L 26.79,-64.67 L 35,-60.62 L 55.40,-72.20 L 64.35,-64.35 L 55.53,-42.61 L 60.62,-35 L 84.07,-34.82 L 87.90,-23.55 L 69.40,-9.14 L 70,0 L 90.22,11.88 L 87.90,23.55 L 64.67,26.79 L 60.62,35 L 72.20,55.40 L 64.35,64.35 L 42.61,55.53 L 35,60.62 L 34.82,84.07 L 23.55,87.90 L 9.14,69.40 L 0,70 L -11.88,90.22 L -23.55,87.90 L -26.79,64.67 L -35,60.62 L -55.40,72.20 L -64.35,64.35 L -55.53,42.61 L -60.62,35 L -84.07,34.82 L -87.90,23.55 L -69.40,9.14 L -70,0 L -90.22,-11.88 L -87.90,-23.55 L -64.67,-26.79 L -60.62,-35 L -72.20,-55.40 L -64.35,-64.35 L -42.61,-55.53 L -35,-60.62 L -34.82,-84.07 L -23.55,-87.90 L -9.14,-69.40 Z M 0,-31 A 31,31 0 1,0 0,31 A 31,31 0 1,0 0,-31 Z"/>
+    <path id="gear10" fill-rule="evenodd" d="M 0,-56 L 11.73,-74.08 L 23.18,-71.33 L 25.42,-49.90 L 32.92,-45.30 L 53.03,-53.03 L 60.68,-44.08 L 49.90,-25.42 L 53.26,-17.30 L 74.08,-11.73 L 75,0 L 55.31,8.76 L 53.26,17.30 L 66.83,34.05 L 60.68,44.08 L 39.60,39.60 L 32.92,45.30 L 34.05,66.83 L 23.18,71.33 L 8.76,55.31 L 0,56 L -11.73,74.08 L -23.18,71.33 L -25.42,49.90 L -32.92,45.30 L -53.03,53.03 L -60.68,44.08 L -49.90,25.42 L -53.26,17.30 L -74.08,11.73 L -75,0 L -55.31,-8.76 L -53.26,-17.30 L -66.83,-34.05 L -60.68,-44.08 L -39.60,-39.60 L -32.92,-45.30 L -34.05,-66.83 L -23.18,-71.33 L -8.76,-55.31 Z M 0,-25 A 25,25 0 1,0 0,25 A 25,25 0 1,0 0,-25 Z"/>
+    <path id="gear8" fill-rule="evenodd" d="M 0,-42 L 11.51,-57.87 L 22.58,-54.51 L 23.33,-34.92 L 29.70,-29.70 L 49.06,-32.78 L 54.51,-22.58 L 41.19,-8.19 L 42,0 L 57.87,11.51 L 54.51,22.58 L 34.92,23.33 L 29.70,29.70 L 32.78,49.06 L 22.58,54.51 L 8.19,41.19 L 0,42 L -11.51,57.87 L -22.58,54.51 L -23.33,34.92 L -29.70,29.70 L -49.06,32.78 L -54.51,22.58 L -41.19,8.19 L -42,0 L -57.87,-11.51 L -54.51,-22.58 L -34.92,-23.33 L -29.70,-29.70 L -32.78,-49.06 L -22.58,-54.51 L -8.19,-41.19 Z M 0,-19 A 19,19 0 1,0 0,19 A 19,19 0 1,0 0,-19 Z"/>
+  </defs>
+
+  <!-- Large bowel-purple gear -->
+  <g id="large-purple-gear" transform="translate(245 330) rotate(-5) scale(1.48)">
+    <use xlink:href="#gear12" fill="#7768A6" stroke="#555095" stroke-width="7" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+  </g>
+
+  <!-- Lung-turquoise gear -->
+  <g id="turquoise-gear" transform="translate(385 178) rotate(12) scale(1.28)">
+    <use xlink:href="#gear10" fill="#12B9C2" stroke="#0A9CAB" stroke-width="7" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+  </g>
+
+  <!-- Liver-green gear -->
+  <g id="green-gear" transform="translate(423 361) rotate(-10) scale(1.10)">
+    <use xlink:href="#gear8" fill="#087B18" stroke="#00A52B" stroke-width="7" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+  </g>
+
+  <!-- Intestine-magenta gear -->
+  <g id="magenta-gear" transform="translate(152 169) rotate(8) scale(1.03)">
+    <use xlink:href="#gear8" fill="#C0007F" stroke="#9C006E" stroke-width="7" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+  </g>
+
+  <!-- Spine-yellow gear -->
+  <g id="yellow-gear" transform="translate(483 261) rotate(-8) scale(.82)">
+    <use xlink:href="#gear8" fill="#FFD51E" stroke="#E7AE00" stroke-width="7" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+  </g>
+</svg>
