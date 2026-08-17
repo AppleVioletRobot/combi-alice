@@ -8,44 +8,44 @@
     {
       "file": "alice/heads/head_002.png",
       "alt_text": "Glasses-less Alice with brown paste-paper hair against an aqua bathroom background",
-      "biographical_note": ""
+      "biographical_note": "Alice without her glasses."
     },
     {
       "file": "alice/heads/head_003.png",
       "alt_text": "Alice wearing glasses, gold earrings and a grey spotted headscarf",
-      "biographical_note": ""
+      "biographical_note": "Alice wearing a pirate scarf made from a favourite bedsheet, unexpectedly hating hair loss."
     },
     {
       "file": "alice/heads/head_004.png",
       "alt_text": "Alice wearing sunglasses and a blue baker boy cap",
-      "biographical_note": ""
+      "biographical_note": "Early morning bedhead hidden under a baker boy cap."
     },
     {
       "file": "alice/heads/head_005.png",
       "alt_text": "Alice wearing glasses and a yellow beret",
-      "biographical_note": ""
+      "biographical_note": "Wearing the Florentine yellow beret."
     }
   ],
   "torsos": [
     {
       "file": "alice/torsos/torso_001.png",
       "alt_text": "A red cardigan over a brown Chasing Dopamine T-shirt with a round pin badge",
-      "biographical_note": ""
+      "biographical_note": "First clinic outfit."
     },
     {
       "file": "alice/torsos/torso_002.png",
       "alt_text": "Alice’s arms holding Louis, a black-and-white cat stretching one leg upwards",
-      "biographical_note": ""
+      "biographical_note": "Giving Louis love."
     },
     {
       "file": "alice/torsos/torso_003.png",
       "alt_text": "An olive suit over a bright patterned shirt with a conference lanyard",
-      "biographical_note": ""
+      "biographical_note": "Patito de Goma aka Alice's House of Fashion."
     },
     {
       "file": "alice/torsos/torso_004.png",
       "alt_text": "Alice’s torso containing brightly coloured lungs, heart, liver, stomach and intestines",
-      "biographical_note": ""
+      "biographical_note": "Much more concerned with my innards."
     }
   ],
   "legs": [
@@ -57,7 +57,7 @@
     {
       "file": "alice/legs/legs_002.png",
       "alt_text": "Pink plaid pyjama bottoms with an elasticated waist and drawstring",
-      "biographical_note": ""
+      "biographical_note": "My favourite pink pyjamas."
     },
     {
       "file": "alice/legs/legs_003.png",
@@ -67,19 +67,19 @@
     {
       "file": "alice/legs/legs_004.png",
       "alt_text": "Grey tracksuit bottoms with pockets, an elasticated waist and white drawstring",
-      "biographical_note": ""
+      "biographical_note": "The least favourite daytime pyjamas."
     },
     {
       "file": "alice/legs/legs_005.png",
       "alt_text": "Long blue denim shorts with pockets, stitching and a narrow strip of bare leg",
-      "biographical_note": ""
+      "biographical_note": "These would reach my knees, if I had knees."
     }
   ],
   "feet": [
     {
       "file": "alice/feet/feet_001.png",
       "alt_text": "Alice wearing red lace-up trainers on a dark grey surface",
-      "biographical_note": ""
+      "biographical_note": "My favourite red Dunlops - the poor woman's Converse."
     },
     {
       "file": "alice/feet/feet_002.png",
@@ -89,7 +89,7 @@
     {
       "file": "alice/feet/feet_003.png",
       "alt_text": "Alice wearing purple trainers on a large green field",
-      "biographical_note": ""
+      "biographical_note": "Dogwalking feet."
     },
     {
       "file": "alice/feet/feet_004.png",
