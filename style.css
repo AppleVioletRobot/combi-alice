@@ -227,3 +227,11 @@ body{background:radial-gradient(circle at 15% 10%,rgba(183,190,194,.44),transpar
 .identity::before{background:transparent}
 .identity::after{background:none;opacity:.12}
 }
+
+/* Casing refinement: clearer title, open counter and dark lever housing. */
+@media(min-width:901px){
+.eyebrow{font-family:Arial,Helvetica,sans-serif}
+.counter-bank{padding:0;border:0;background:transparent;box-shadow:none}
+.possibilities strong{padding:0;border:0;background:none;box-shadow:none;font-size:clamp(3rem,6vw,5.4rem);letter-spacing:-.08em}
+.lever-control{background:#555d61!important}
+}
