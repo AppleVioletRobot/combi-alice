@@ -148,6 +148,75 @@ function render() {
   updateViewer();
 }
 
+
+function addLeverGesture(button) {
+  const knob = button.querySelector(".lever-knob");
+  let pointerId = null;
+  let startX = 0;
+  let startY = 0;
+  let fired = false;
+  let suppressClick = false;
+
+  const reset = () => {
+    pointerId = null;
+    button.classList.remove("is-pulling");
+    setTimeout(() => {
+      button.classList.remove("is-pulled");
+      button.style.removeProperty("--lever-angle");
+    }, fired ? 180 : 0);
+  };
+
+  button.addEventListener("pointerdown", event => {
+    if (event.button !== 0 || pointerId !== null) return;
+    pointerId = event.pointerId;
+    startX = event.clientX;
+    startY = event.clientY;
+    fired = false;
+    button.classList.add("is-pulling");
+    button.setPointerCapture(pointerId);
+  });
+
+  button.addEventListener("pointermove", event => {
+    if (event.pointerId !== pointerId) return;
+    const deltaX = event.clientX - startX;
+    const deltaY = event.clientY - startY;
+    const distance = Math.hypot(deltaX, deltaY);
+    const angle = Math.max(-22, Math.min(24, -12 + deltaX * .42 + deltaY * .18));
+    button.style.setProperty("--lever-angle", `${angle}deg`);
+
+    if (!fired && distance >= 16) {
+      fired = true;
+      suppressClick = true;
+      setTimeout(() => { suppressClick = false; }, 600);
+      button.classList.add("is-pulled");
+      randomise();
+    }
+  });
+
+  const finish = event => {
+    if (event.pointerId !== pointerId) return;
+    if (button.hasPointerCapture(pointerId)) button.releasePointerCapture(pointerId);
+    reset();
+  };
+
+  button.addEventListener("pointerup", finish);
+  button.addEventListener("pointercancel", finish);
+  button.addEventListener("lostpointercapture", event => {
+    if (event.pointerId === pointerId) reset();
+  });
+
+  button.addEventListener("click", event => {
+    if (suppressClick) {
+      event.preventDefault();
+      suppressClick = false;
+      return;
+    }
+    randomise();
+  });
+
+  knob.setAttribute("draggable", "false");
+}
+
 function randomise() {
   const before = kinds.map(kind => selection[kind]).join("-");
   let attempts = 0;
@@ -276,7 +345,7 @@ async function init() {
   kinds.forEach(kind => selection[kind] = indexFromUrl(kind));
   const total = kinds.reduce((product, kind) => product * parts[kind].length, 1);
   document.querySelector("#count").textContent = total.toLocaleString("en-GB");
-  document.querySelector("#randomise").onclick = randomise;
+  addLeverGesture(document.querySelector("#randomise"));
   document.querySelector("#view-alice").onclick = openViewer;
   document.querySelector("#about-button").onclick = () => document.querySelector("#about").showModal();
   document.querySelector("#save-alice").onclick = saveAlice;
