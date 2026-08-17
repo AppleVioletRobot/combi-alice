@@ -252,3 +252,14 @@ body{background:radial-gradient(circle at 15% 10%,rgba(183,190,194,.44),transpar
 .lever-control{touch-action:none;user-select:none}
 .lever-control.is-pulling .lever-knob{transform:rotate(var(--lever-angle,-12deg))!important;transition:none}
 .lever-control.is-pulled .lever-knob{transform:rotate(24deg)!important;transition:transform .12s ease-out}
+
+/* Keep interface controls clear of the autobiographical evidence. */
+.lock{
+  right:calc(-1 * var(--peek) + .35rem);
+  top:.3rem;
+  width:1.7rem;
+  height:1.7rem;
+  justify-content:center;
+  padding:0;
+}
+.lock-label{display:none}
