@@ -3,12 +3,12 @@
     {
       "file": "alice/heads/head_001.png",
       "alt_text": "Alice with brown hair, glasses, a wobbly pink mouth and two blue tears",
-      "biographical_note": ""
+      "biographical_note": "See the tears?"
     },
     {
       "file": "alice/heads/head_002.png",
-      "alt_text": "Glasses-less Alice with brown paste-paper hair against an aqua bathroom background",
-      "biographical_note": "Alice without her glasses."
+      "alt_text": "Glasses-less Alice",
+      "biographical_note": "Bats, moles and Alice - all need their glasses."
     },
     {
       "file": "alice/heads/head_003.png",
@@ -23,7 +23,7 @@
     {
       "file": "alice/heads/head_005.png",
       "alt_text": "Alice wearing glasses and a yellow beret",
-      "biographical_note": "Wearing the Florentine yellow beret."
+      "biographical_note": "Wearing the yellow Florentine beret."
     },
     {
       "file": "alice/heads/head_006.png",
@@ -65,7 +65,7 @@
     {
       "file": "alice/torsos/torso_006.png",
       "alt_text": "A navy blue t-shirt with the surnames of famous Alices on the left breast. Hand holding a dog poo bag.",
-      "biographical_note": "Say my name - the Alice t-shirt."
+      "biographical_note": "Say my name - the Alice shirt."
     },
     {
       "file": "alice/torsos/torso_007.png",
@@ -76,6 +76,11 @@
       "file": "alice/torsos/torso_008.png",
       "alt_text": "A blue finisher t-shirt, a hand holding a medal with the number 55 on it, and a cupcake",
       "biographical_note": "Nevertheless she persisted."
+    },
+    {
+      "file": "alice/torsos/torso_009.png",
+      "alt_text": "A black vest stop with a image of a swimmer and the caption Vitamin Sea",
+      "biographical_note": ""
     }
   ],
   "legs": [
@@ -121,13 +126,18 @@
     },
     {
       "file": "alice/legs/legs_009.png",
-      "alt_text": "Only to be worn when the infinity wash is on and other options are exhausted.",
-      "biographical_note": "Loving no waistband."
+      "alt_text": "Black tracksuit bottoms with pockets, and elasticated waist, and white drawstring",
+      "biographical_note": "Only to be worn when the infinity wash is on and other options are exhausted."
     },
     {
       "file": "alice/legs/legs_010.png",
-      "alt_text": "Roll-di-di-roll in my other favourite daytime pyjamas.",
-      "biographical_note": "Loving no waistband."
+      "alt_text": "Navy blue tracksuit bottoms with pockets, and elasticated waist, and white drawstring",
+      "biographical_note": "Roll-di-di-roll in my other favourite daytime pyjamas."
+    },
+    {
+      "file": "alice/legs/legs_011.png",
+      "alt_text": "Bare legs and black bikini bottoms",
+      "biographical_note": ""
     }
   ],
   "feet": [
