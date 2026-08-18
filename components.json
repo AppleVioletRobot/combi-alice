@@ -71,6 +71,11 @@
       "file": "alice/torsos/torso_007.png",
       "alt_text": "A red dungaree bib with a blue rosette with the number 1 on it, and a badge saying black sheep club. A university library card sticks out of the bib pocket.",
       "biographical_note": "I only cried a little."
+    },
+    {
+      "file": "alice/torsos/torso_008.png",
+      "alt_text": "A blue finisher t-shirt, a hand holding a medal with the number 55 on it, and a cupcake",
+      "biographical_note": "Nevertheless she persisted."
     }
   ],
   "legs": [
