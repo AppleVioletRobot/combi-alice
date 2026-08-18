@@ -61,6 +61,11 @@
       "file": "alice/torsos/torso_006.png",
       "alt_text": "A navy blue t-shirt with the surnames of famous Alices on the left breast. Hand holding a dog poo bag.",
       "biographical_note": "Say my name - the Alice t-shirt."
+    },
+    {
+      "file": "alice/torsos/torso_007.png",
+      "alt_text": "A red dungaree bib with a blue rosette with the number 1 on it, and a badge saying black sheep club. A university library card sticks out of the bib pocket.",
+      "biographical_note": "I only cried a little."
     }
   ],
   "legs": [
@@ -98,6 +103,11 @@
       "file": "alice/legs/legs_007.png",
       "alt_text": "Light grey tracksuit bottoms with pockets, an elasticated waist and white drawstring",
       "biographical_note": "The least favourite daytime pyjamas."
+    },
+    {
+      "file": "alice/legs/legs_007.png",
+      "alt_text": "Red trousers with large side pockets.",
+      "biographical_note": "Loving no waistband."
     }
   ],
   "feet": [
