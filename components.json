@@ -29,6 +29,11 @@
       "file": "alice/heads/head_006.png",
       "alt_text": "Alice's head filled with colourful gears",
       "biographical_note": "Plotting another Alice Caper."
+    },
+    {
+      "file": "alice/heads/head_007.png",
+      "alt_text": "Alice wearing a party hat and blowing a party toy",
+      "biographical_note": "Happy birthday to me!"
     }
   ],
   "torsos": [
@@ -108,6 +113,16 @@
       "file": "alice/legs/legs_008.png",
       "alt_text": "Red trousers with large side pockets.",
       "biographical_note": "Loving no waistband."
+    },
+    {
+      "file": "alice/legs/legs_009.png",
+      "alt_text": "Only to be worn when the infinity wash is on and other options are exhausted.",
+      "biographical_note": "Loving no waistband."
+    },
+    {
+      "file": "alice/legs/legs_010.png",
+      "alt_text": "Roll-di-di-roll in my other favourite daytime pyjamas.",
+      "biographical_note": "Loving no waistband."
     }
   ],
   "feet": [
@@ -119,7 +134,7 @@
     {
       "file": "alice/feet/feet_002.png",
       "alt_text": "Alice’s bare feet and ankles, one tattooed 7 greater than 338, on black-and-white bathroom tiles",
-      "biographical_note": ""
+      "biographical_note": "Wild colonial feet."
     },
     {
       "file": "alice/feet/feet_003.png",
