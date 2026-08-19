@@ -13,7 +13,7 @@
     {
       "file": "alice/heads/head_003.png",
       "alt_text": "Alice wearing glasses, gold earrings and a grey spotted headscarf",
-      "biographical_note": "Alice wearing a pirate scarf made from a favourite bedsheet, unexpectedly hating hair loss."
+      "biographical_note": "The pirate era, unexpectedly hating hair loss."
     },
     {
       "file": "alice/heads/head_004.png",
@@ -81,6 +81,11 @@
       "file": "alice/torsos/torso_009.png",
       "alt_text": "A black vest stop with a image of a swimmer and the caption Vitamin Sea",
       "biographical_note": ""
+    },
+    {
+      "file": "alice/torsos/torso_010.png",
+      "alt_text": "A black t-shirt, with striped butcher's apron, hands holding a knife and whisky, a badge reading Food Hacker, and tattoos of fire and bacteria.",
+      "biographical_note": "Chef's do that!"
     }
   ],
   "legs": [
