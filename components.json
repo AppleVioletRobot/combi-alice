@@ -124,11 +124,7 @@
       "alt_text": "Blue jeans from the back with pockets and gold stitching",
       "biographical_note": "These would reach my knees, if I had knees."
     },
-    {
-      "file": "alice/legs/legs_007.png",
-      "alt_text": "Light grey tracksuit bottoms with pockets, an elasticated waist and white drawstring",
-      "biographical_note": "The least favourite daytime pyjamas - for infinity wash moments only."
-    },
+    
     {
       "file": "alice/legs/legs_008.png",
       "alt_text": "Red trousers with large side pockets.",
@@ -180,6 +176,13 @@
       "file": "alice/feet/feet_006.png",
       "alt_text": "a pair of feet paddling in the sea, and a bottle with a note that reads To Do: Be Fucking Incredible",
       "biographical_note": "Just do it!"
+    }
+  ],
+  "excluded": [
+    {
+      "file": "alice/legs/legs_007.png",
+      "alt_text": "Light grey tracksuit bottoms with pockets, an elasticated waist and white drawstring",
+      "biographical_note": "The least favourite daytime pyjamas - for infinity wash moments only."
     }
   ]
 }
