@@ -44,6 +44,11 @@
       "file": "alice/heads/head_009.png",
       "alt_text": "A though bubble showing a collection of random letters sorted into anagrams",
       "biographical_note": "Ardeat Ingenium!"
+    },
+    {
+      "file": "alice/heads/head_010.png",
+      "alt_text": "Alice wearing an alice band with black dogs on it.",
+      "biographical_note": "The black dog. Woof! Woof!"
     }
   ],
   "torsos": [
