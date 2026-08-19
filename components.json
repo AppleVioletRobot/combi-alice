@@ -153,22 +153,27 @@
   "feet": [
     {
       "file": "alice/feet/feet_001.png",
-      "alt_text": "Alice wearing red lace-up trainers on a dark grey surface",
+      "alt_text": "red lace-up trainers on a tarmac",
       "biographical_note": "My favourite red Dunlops - the poor woman's Converse."
     },
     {
       "file": "alice/feet/feet_002.png",
-      "alt_text": "Alice’s bare feet and ankles, one tattooed 7 greater than 338, on black-and-white bathroom tiles",
+      "alt_text": "bare feet and ankles, one tattooed 7 greater than 338, on patterned tiles",
       "biographical_note": "Wild colonial feet."
     },
     {
       "file": "alice/feet/feet_003.png",
-      "alt_text": "Alice wearing purple trainers on a large green field",
+      "alt_text": "purple trainers on a grass, a dog is pooping in the foreground",
       "biographical_note": "Dogwalking feet."
     },
     {
       "file": "alice/feet/feet_004.png",
-      "alt_text": "Alice wearing blue canvas shoes on a cracked pavement",
+      "alt_text": "a pair of bright blue trainers on a cracked pavement",
+      "biographical_note": ""
+    },
+    {
+      "file": "alice/feet/feet_005.png",
+      "alt_text": "a pair of black work boots on a black and white tiled floor",
       "biographical_note": ""
     }
   ]
