@@ -39,6 +39,11 @@
       "file": "alice/heads/head_008.png",
       "alt_text": "Alice wearing a black chef's cap that reads Stick Me Quick, Bleed Me Slow",
       "biographical_note": ""
+    },
+    {
+      "file": "alice/heads/head_009.png",
+      "alt_text": "A though bubble showing a collection of random letters sorted into anagrams",
+      "biographical_note": "Ardeat Ingenium!"
     }
   ],
   "torsos": [
