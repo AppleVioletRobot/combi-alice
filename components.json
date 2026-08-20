@@ -191,6 +191,21 @@
       "file": "alice/feet/feet_007.png",
       "alt_text": "a pair of purple trainers on grass, with a deceased dog lying in front",
       "biographical_note": "Butch Cassidy - gentleman and scholar."
+    },
+    {
+      "file": "alice/feet/feet_008.png",
+      "alt_text": "",
+      "biographical_note": ""
+    },
+    {
+      "file": "alice/feet/feet_009.png",
+      "alt_text": "a pair of bare feet with a wolf tattoo on one ankle, the floor is covered with craft projects, scissors and glue",
+      "biographical_note": "Maker Alice."
+    },
+    {
+      "file": "alice/feet/feet_010.png",
+      "alt_text": "",
+      "biographical_note": ""
     }
   ],
   "excluded": [
